@@ -1,8 +1,8 @@
 %define abiquo_basedir /opt/abiquo
 
 Name:     abiquo-nodecollector
-Version: 1.7
-Release:  6%{?dist}%{?buildstamp}
+Version:  1.7.5
+Release:  1%{?dist}%{?buildstamp}
 Summary:  Abiquo Node Collector
 Group:    Development/System 
 License:  Multiple 
@@ -37,6 +37,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Mar 17 2011 Sergio Rubio <srubio@abiquo.com> - 1.7.5-1
+- version bump
+
 * Wed Feb 16 2011 Sergio Rubio <srubio@abiquo.com> - 1.7-6
 - fix release string
 
